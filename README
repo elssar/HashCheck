@@ -12,7 +12,7 @@ Alternately, you can use the -m or --makefile option to make your pwd.yaml file.
 External Libraries used - PyYAML3.10 - http://pyyaml.org/wiki/PyYAML
                         - Google's apilib - http://code.google.com/p/google-api-python-client/wiki/Installation
 
-You will need to you Googles custom search API, and will require an API key for that - https://code.google.com/apis/console/
+You will need to use Googles custom search API, and will require an API key for that - https://code.google.com/apis/console/
 Also, keep in mind that Google only allows 100 free searches per day.
 
 Licence - GPL v3 - http://www.gnu.org/copyleft/gpl.html
