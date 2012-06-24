@@ -1,0 +1,15 @@
+***************************************************************************
+hashcheck.py helpfile
+***************************************************************************
+python hashcheck.py [options]
+
+(No options)    : Will check the passwords in the passwords file(default)
+-m, --makefile  : make a new file(will delete previous file)
+-a, --append    : add new passwords to file
+-c, --change    : change a passowrd
+-d, --delete    : delete a password from the file
+-p, --purge     : delete the password file
+-t, --textinput : Will take in passwords from the command line
+				: usage - python hashcheck.py -t pass1 pass2 pass3......
+-h, --help      : program help
+***************************************************************************
