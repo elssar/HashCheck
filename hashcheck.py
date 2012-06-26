@@ -159,7 +159,7 @@ def textinput(passwords):
 	   -t, --textinput : Will take in passwords from the command line & test them'''
 	pwd_dict= {}
 	for p in passwords:
-		pwd_dict[p]= [md5(p).hexdump(), sha1(p).hexdump()]
+		pwd_dict[p]= [md5(p).hexdigest(), sha1(p).hexdigest()]
 	result= search(pwd_dict)
 	display_results(result)
 
